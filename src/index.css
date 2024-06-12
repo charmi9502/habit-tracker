@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div {
+  border: 1px solid black;
+}
+
+div .overview-container {
+  background: red;
+  border-color: blue;
+  flex-grow: 7;
+}
+
+div .timeline-container {
+  border-color: red;
+  flex-grow: 3;
+
+}
+
+div .App {
+  display: flex;
+    height: 200px;
+    flex-direction: row;
+}
+
+
+
